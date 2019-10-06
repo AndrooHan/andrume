@@ -1,8 +1,14 @@
 <html>
   <head>
 	<title>This is fine.</title>
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap" rel="stylesheet">
 	<style>
+    * {
+      font-family: 'Be Vietnam', sans-serif;
+      background-color: #f9f4e3;
+    }
+
 		.center {
  			display: block;
   			margin-left: auto;	
@@ -11,6 +17,7 @@
 		}
 		h1 {
 			margin-top:10%;
+      font-size: 450%;
 		}
 	</style>
 
